@@ -49,7 +49,7 @@ The system is capable of accurately detecting and tracking objects (e.g., vehicl
  - **Tracking**: Each detected object is assigned a unique ID and tracked across multiple frames.
  - **Visualization**: Bounding boxes are drawn around detected objects, and their unique IDs are displayed on the frame, showing real-time tracking.
    
-In case of vehicles, the system successfully tracks each vehicle through the scene, even if they move in different directions.
+- In case of vehicles, the system successfully tracks each vehicle through the scene, even if they move in different directions.
 ---
 ## Conclusion:
 The project demonstrates an effective approach to real-time object tracking in live camera streams using image processing techniques. The use of background subtraction for detection, contour analysis, and a simple tracking algorithm offers a reliable solution for tracking moving objects, such as vehicles, in dynamic environments. This approach has wide applications in traffic monitoring, surveillance, and other fields requiring real-time object detection and tracking.
