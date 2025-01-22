@@ -13,7 +13,7 @@
    - Contour Detection: Find contours of detected objects to define their boundaries.
    - Object Tracking: Track detected objects across frames using a Euclidean distance tracker, assigning unique IDs to each object.
      
-The application can be extended to use real-time video from various camera sources and can be utilized for monitoring vehicle movements in traffic or tracking objects in surveillance footage.
+- The application can be extended to use real-time video from various camera sources and can be utilized for monitoring vehicle movements in traffic or tracking objects in surveillance footage.
 ---
 ## Dataset:
 - While the project does not rely on a pre-labeled dataset, it uses a live streaming video as input. For testing purposes, a sample video like "highway.mp4" can be used, which consists 
@@ -22,7 +22,7 @@ The application can be extended to use real-time video from various camera sourc
   - Data format: .mp4 or .avi video files (e.g., highway scenes with vehicles).
   - Data size: Varies based on video length and resolution.
     
-Since the project works with live video streams, any video feed containing moving objects can be considered as a dataset.
+- Since the project works with live video streams, any video feed containing moving objects can be considered as a dataset.
 ---
 ## Technologies Used:
 - Programming Language: `Python`
@@ -32,7 +32,7 @@ Since the project works with live video streams, any video feed containing movin
   - `EuclideanDistTracker`: For object tracking (custom or pre-built tracker).
   - `Video Input`: Live camera feed or pre-recorded video (e.g., .mp4).
     
-These technologies allow the program to process video streams in real-time and use efficient image processing algorithms for object detection and tracking.
+- These technologies allow the program to process video streams in real-time and use efficient image processing algorithms for object detection and tracking.
 ---
 ## Data Preprocessing:
  - **Frame Extraction**: Each frame of the video stream is extracted for processing.
@@ -51,7 +51,7 @@ The system is capable of accurately detecting and tracking objects (e.g., vehicl
    
 In case of vehicles, the system successfully tracks each vehicle through the scene, even if they move in different directions.
 ---
-Conclusion:
+## Conclusion:
 The project demonstrates an effective approach to real-time object tracking in live camera streams using image processing techniques. The use of background subtraction for detection, contour analysis, and a simple tracking algorithm offers a reliable solution for tracking moving objects, such as vehicles, in dynamic environments. This approach has wide applications in traffic monitoring, surveillance, and other fields requiring real-time object detection and tracking.
 
   - **Strengths**: The system is capable of working in real-time, making it suitable for live traffic monitoring or surveillance applications.
@@ -60,7 +60,7 @@ The project demonstrates an effective approach to real-time object tracking in l
   - **Future Work**: To improve the accuracy and robustness of the tracking system, it could be extended by incorporating deep learning models for object detection, especially for 
       handling challenging scenarios like occlusions, varying lighting conditions, and fast-moving objects.
     
-This project provides a foundational framework for live object tracking and can be extended with more sophisticated methods to handle various complex tracking scenarios.
+- This project provides a foundational framework for live object tracking and can be extended with more sophisticated methods to handle various complex tracking scenarios.
 
 
 
